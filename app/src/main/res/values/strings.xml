@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">COGMedia</string>
-    <string name="tab_text_1">Radio</string>
-    <string name="tab_text_2">Live</string>
-    <string name="tab_text_3">Website</string>
-    <string name="tab_text_4">About Us</string>
+    <string name="tab_radio">Radio</string>
+    <string name="tab_live">Live</string>
+    <string name="tab_website">Website</string>
+    <string name="tab_about_us">About Us</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 </resources>
