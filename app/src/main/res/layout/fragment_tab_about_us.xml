@@ -4,20 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textSize="25sp"
-        android:text="About Us"
-        android:textColor="@color/colorAccent"
-        android:layout_marginTop="40dp"
-        android:id="@+id/textTab1"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnTEST"
-        android:text="TEST BUTTON"/>
+            <TextView
+                android:id="@+id/aboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_margin="15dp"
+                android:scrollbarThumbVertical="@color/colorAccent"
+                android:scrollbars="vertical"
+                android:text="@string/about_us"
+                android:textColor="@color/colorAccent"
+                android:textSize="8pt"
+                android:paddingBottom="50dp"
+                android:verticalScrollbarPosition="right" />
 
 </RelativeLayout>
