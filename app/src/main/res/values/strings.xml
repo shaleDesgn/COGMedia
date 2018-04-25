@@ -1,12 +1,4 @@
 <resources>
     <string name="app_name">Gospel Trumpet Radio</string>
-    <string name="tab_radio">Radio</string>
-    <string name="tab_live">Live</string>
-    <string name="tab_website">Website</string>
-    <string name="tab_about_us">About Us</string>
     <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
