@@ -10,12 +10,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_margin="15dp"
-                android:scrollbarThumbVertical="@color/colorAccent"
-                android:scrollbars="vertical"
+                android:paddingBottom="50dp"
                 android:text="@string/about_us"
                 android:textColor="@color/colorAccent"
-                android:textSize="8pt"
-                android:paddingBottom="50dp"
+                android:textSize="10pt"
+                android:fontFamily="sans-serif"
+                android:scrollbars="none"
+                android:scrollbarThumbVertical="@color/colorAccent"
                 android:verticalScrollbarPosition="right" />
-
 </RelativeLayout>

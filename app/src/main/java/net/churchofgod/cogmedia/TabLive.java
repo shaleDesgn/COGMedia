@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 public class TabLive extends Fragment {
     private static final String TAG = "TabLive";
-
     private Button btnTEST;
 
     @Nullable

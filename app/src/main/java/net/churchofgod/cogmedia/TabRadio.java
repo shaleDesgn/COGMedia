@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 public class TabRadio extends Fragment {
     private static final String TAG = "TabRadio";
-
     private Button btnTEST;
 
     @Nullable

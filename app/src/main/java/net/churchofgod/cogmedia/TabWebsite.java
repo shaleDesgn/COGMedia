@@ -6,8 +6,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 /**
  * Created by User on 2/28/2017.
@@ -15,22 +15,21 @@ import android.widget.Toast;
 
 public class TabWebsite extends Fragment {
     private static final String TAG = "TabWebsite";
-
-    private Button btnTEST;
+    private WebView webView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_tab_website,container,false);
-        btnTEST = view.findViewById(R.id.btnTEST);
 
-        btnTEST.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK ON WEBSITE",Toast.LENGTH_SHORT).show();
-            }
-        });
+        webView = view.findViewById(R.id.webView);
+        //webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
+        webView.setWebViewClient(new WebViewClient());
+        webView.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
+        webView.loadUrl("http://www.churchofgod.net");
 
         return view;
     }
+
 }
