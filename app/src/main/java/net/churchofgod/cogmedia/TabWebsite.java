@@ -9,10 +9,6 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-/**
- * Created by User on 2/28/2017.
- */
-
 public class TabWebsite extends Fragment {
     private static final String TAG = "TabWebsite";
     private WebView webView;
@@ -24,6 +20,7 @@ public class TabWebsite extends Fragment {
 
         webView = view.findViewById(R.id.webView);
         //webView.getSettings().setJavaScriptEnabled(true);
+        webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         webView.getSettings().setDomStorageEnabled(true);
         webView.setWebViewClient(new WebViewClient());
         webView.setOverScrollMode(WebView.OVER_SCROLL_NEVER);

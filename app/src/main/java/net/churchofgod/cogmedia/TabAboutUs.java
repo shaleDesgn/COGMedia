@@ -14,10 +14,6 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-/**
- * Created by User on 2/28/2017.
- */
-
 public class TabAboutUs extends Fragment {
     private static final String TAG = "TabAboutUs";
 
