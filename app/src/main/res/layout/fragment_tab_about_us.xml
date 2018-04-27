@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,12 +11,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_margin="15dp"
-                android:paddingBottom="50dp"
                 android:text="@string/about_us"
                 android:textColor="@color/colorAccent"
                 android:textSize="10pt"
-                android:fontFamily="sans-serif"
+                app:fontFamily="sans-serif"
                 android:scrollbars="none"
                 android:scrollbarThumbVertical="@color/colorAccent"
                 android:verticalScrollbarPosition="right" />
+
 </RelativeLayout>
